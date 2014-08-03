@@ -1,0 +1,33 @@
+{
+  "name": "uidiamonds",
+  "version": "0.0.1",
+  "homepage": "https://github.com/M3kH/uidiamonds",
+  "authors": [
+    "Mauro Mandracchia <info@ideabile.com>"
+  ],
+  "description": "A UI/JS framework for easy development",
+  "main": "js/main.js",
+  "keywords": [
+    "ui",
+    "bootstrap",
+    "requirejs",
+    "ractive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0+1",
+    "backbone": "~1.1.2",
+    "requirejs": "~2.1.14",
+    "ractive": "0.4.*",
+    "marionette": "~2.1.0",
+    "requirejs-ractive": "~0.1.5",
+    "ractive-backbone": "~0.1.1"
+  }
+}

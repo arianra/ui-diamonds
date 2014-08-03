@@ -1,0 +1,29 @@
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            {{#clmn-thead}}
+                <th>{{.}}</th>
+            {{/clmn-thead}}
+        </tr>
+        </thead>
+        <tbody>
+        {{#rows}}
+            <tr>
+            {{#this.toJSON()}}
+                {{#.:k}}
+                <td>{{this}}</td>
+                {{/.}}
+            {{/.}}
+            </tr>
+        {{/rows}}
+        {{^rows}}
+            <tr>
+                <td>
+                    Sorry no data for this table
+                </td>
+            </tr>
+        {{/rows}}
+        </tbody>
+    </table>
+</div>
