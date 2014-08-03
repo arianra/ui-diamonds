@@ -7,7 +7,7 @@ For now just a proof of concept.
 
 ## Install & Run
 ```
-git clone git@github.com:M3kH/uidiamonds.git && cd uidiamonds && npm install && bower install
+git clone git@github.com:M3kH/ui-diamonds.git && cd ui-diamonds && npm install && bower install
 ```
 then compile the sass files ```app/style/main.scss``` => ```statics/css/```
 
